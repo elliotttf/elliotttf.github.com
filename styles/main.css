@@ -194,19 +194,19 @@ em {
 }
 
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
-  background:url('../images/icons/button_close.gif');
+  background:url('../img/button_close.gif');
 }
 
 .ui-state-active .ui-icon {
-  background:url('../images/icons/button_close.gif');
+  background:url('../img/button_close.gif');
 }
 
 .ui-state-highlight .ui-icon {
-  background:url('../images/icons/button_close.gif');
+  background:url('../img/button_close.gif');
 }
 
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
-  background:url('../images/icons/button_close.gif');
+  background:url('../img/button_close.gif');
 }
 
 .ui-widget-overlay {
@@ -529,7 +529,7 @@ em {
   padding:0;
   width:30px;
   height:30px;
-  background:url('../images/icons/icons_sprite.png') center -168px;
+  background:url('../img/icons_sprite.png') center -168px;
   border:0 solid #555;
   border-width:0 0 0 1px;
 }
@@ -1218,7 +1218,7 @@ ul.applinks>li {
 
 .menu .menu-toggle {
   padding-right:13px;
-  background-image:url(../images/icons/icons_sprite.png);
+  background-image:url(../img/icons_sprite.png);
   background-position:right -946px;
   background-repeat:no-repeat;
   cursor:pointer;
@@ -1231,6 +1231,9 @@ ul.applinks>li {
 .menu .menu-head {
   display:-moz-inline-box;
   display:inline-block;
+}
+
+.menu .menu-head-active {
   -webkit-border-top-left-radius:3px;
   -webkit-border-top-right-radius:3px;
   -moz-border-radius-topleft:3px;
@@ -1246,8 +1249,11 @@ ul.applinks>li {
   margin:-1px;
   margin-bottom:0;
   padding-right:10px;
-  background-color:#333;
   padding-bottom:4px;
+}
+
+#header .menu .menu-head-active {
+  background-color:#333;
 }
 
 .infopage #header .menu .menu-head {
@@ -1413,7 +1419,7 @@ ul.applinks>li {
 }
 
 #header li.peoplemenu .fauxfield {
-  background-image:url(../images/icons/nav/findpeople-fauxfield-bg.png);
+  background-image:url(../img/nav/findpeople-fauxfield-bg.png);
   background-position:0 0;
   background-repeat:no-repeat;
   -webkit-border-radius:3px;
@@ -1424,7 +1430,7 @@ ul.applinks>li {
 #header li.peoplemenu .magnifier {
   padding-left:19px;
   padding-right:0;
-  background-image:url(../images/icons/nav/navicons_sprite.png);
+  background-image:url(../img/nav/navicons_sprite.png);
   background-repeat:no-repeat;
   background-position:-1px 2px;
 }
@@ -1447,7 +1453,7 @@ ul.applinks>li {
 
 #header li.peoplemenu ul.menu-items li.findform input.text {
   width:250px;
-  background-image:url(../images/icons/nav/findpeople-field-bg.gif);
+  background-image:url(../img/nav/findpeople-field-bg.gif);
   background-repeat:repeat-x;
   background-color:#e7e7e7;
 }
@@ -1480,7 +1486,7 @@ ul.applinks>li {
 #header ul.nav li.randomprofile .button-content {
   padding:0 3px;
   width:21px;
-  background-image:url(../images/icons/nav/navicons_sprite.png);
+  background-image:url(../img/nav/navicons_sprite.png);
   background-repeat:no-repeat;
   background-position:-3px -625px;
 }
@@ -1512,7 +1518,7 @@ div.profile {
   padding-left:32px;
   padding-right:15px;
   background-repeat:no-repeat;
-  background-image:url('../images/icons/nav/navicons_sprite.png');
+  background-image:url('../img/nav/navicons_sprite.png');
 }
 
 .profileactionmenu .shareprofilelink a, .profileactionmenu .shareprofilelink.disabled a:hover {
@@ -1606,7 +1612,7 @@ div.profile {
 
 .footer a.twitter {
   padding-left:20px;
-  background-image:url(../images/icons/socialmedia/socialmedia_sprite.png);
+  background-image:url(../img/socialmedia/socialmedia_sprite.png);
   background-repeat:no-repeat;
   background-position:0 -2812px;
 }
@@ -1804,7 +1810,7 @@ div.profile:hover {
 }
 
 .profile div.drag {
-  background-image:url(../images/icons/icons_sprite.png);
+  background-image:url(../img/icons_sprite.png);
   background-repeat:no-repeat;
   background-position:center -406px;
   position:absolute;
