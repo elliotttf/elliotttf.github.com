@@ -1,5 +1,9 @@
+div.profile {
+  left: 25%;
+}
+
 div.profile .profile-content {
-  width: 476px;
+  width: 698px;
 }
 .profile #profile-bevel {
   opacity: 0.68;
@@ -8,7 +12,7 @@ div.profile .profile-content {
 }
 .profile div.profile-head h1.name {
   font-family: 'Antic', sans-serif;
-  font-size: 80px;
+  font-size: 40px;
   color: #FFF;
 }
 .profile div.profile-head h2.headline {
@@ -45,6 +49,6 @@ body.profilepage {
 }
 /*tiled*/
 .profilepage .background-container {
-  background-image: url(../img/main.jpg);
+  background-image: url(../img/resume.jpg);
 }
 

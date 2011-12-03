@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $('.menu-content .menu-items').hide();
+  $('.menu-content').hide();
   $('.menu-toggle').click(function() {
-    $(this).parent().parent().parent().toggleClass('menu-active');
-    $(this).parent('.menu-head').toggleClass('menu-head-active');
-    $(this).parent('.menu-head').siblings('.menu-items').slideToggle('fast');
+    var parentMenu = $(this).parents('.menu');
+    $(parentMenu).toggleClass('menu-active');
+    $('.menu-content', parentMenu).fadeToggle('fast');
   });
 });
 

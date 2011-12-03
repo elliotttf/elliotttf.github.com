@@ -1231,9 +1231,6 @@ ul.applinks>li {
 .menu .menu-head {
   display:-moz-inline-box;
   display:inline-block;
-}
-
-.menu .menu-head-active {
   -webkit-border-top-left-radius:3px;
   -webkit-border-top-right-radius:3px;
   -moz-border-radius-topleft:3px;
@@ -1250,9 +1247,6 @@ ul.applinks>li {
   margin-bottom:0;
   padding-right:10px;
   padding-bottom:4px;
-}
-
-#header .menu .menu-head-active {
   background-color:#333;
 }
 
@@ -1475,7 +1469,7 @@ ul.applinks>li {
 }
 
 #header .button {
-  padding:0;
+  padding-top:2px;
   vertical-align:baseline;
 }
 
