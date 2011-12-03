@@ -1,0 +1,43 @@
+
+.profilepage #header ul.nav li.active span.profile_link {
+	float: left;
+	padding-left: 15px;
+}
+
+.addservices .url.pane fieldset .button {
+	position: static;
+	margin-top: 3px;
+}
+
+#offer-moo .description .moo-logo {
+	margin-right: 5px;
+	position: relative;
+	top: -4px;
+}
+
+.tokenbox .token {
+	 /* the following 2 rules are IE7's version of inline-block */
+	display: inline;
+	zoom: 1;
+}
+
+#debugwindow {
+	width: 200px;
+}
+
+body.accountpage {
+	overflow-y: auto;
+}
+
+.profile .actions .buttonbar {
+	display:inline;
+	zoom:1;
+}                       
+
+.profile .actions .menu ul.menu-items li.separator {
+    width: 190px;
+}
+.peoplemenu.menu ul.menu-items li.separator {
+    width: 330px;
+}
+        
