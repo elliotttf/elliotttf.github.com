@@ -36,9 +36,42 @@ div.profile .profile-content {
 .profile ul.links {
   font-family: 'Antic', sans-serif;
   font-size: 14px;
+  padding: 0 20px 20px 20px;
+  height: 39px;
+}
+.profile ul.links li {
+  float: left;
+  margin-right: 5px;
 }
 .profile ul.links a {
   color: #2B82AD;
+}
+.profile ul.links a.network {
+  display: block;
+  padding: 39px 0 0 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 0px !important;
+  width: 40px;
+  height /**/: 39px;
+}
+.profile ul.links a.twitter {
+  background: url('../img/network_sprite.png') 0 40px;
+}
+.profile ul.links a.twitter:hover {
+  background: url('../img/network_sprite.png') 0 0;
+}
+.profile ul.links a.github {
+  background: url('../img/network_sprite.png') 80px 40px;
+}
+.profile ul.links a.github:hover {
+  background: url('../img/network_sprite.png') 80px 0;
+}
+.profile ul.links a.drupal {
+  background: url('../img/network_sprite.png') 40px 40px;
+}
+.profile ul.links a.drupal:hover {
+  background: url('../img/network_sprite.png') 40px 0;
 }
 body.profilepage {
   background-color: #000;
