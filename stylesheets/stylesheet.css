@@ -308,6 +308,12 @@ dl dt {
   color: #303030;
 }
 
+nav li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
