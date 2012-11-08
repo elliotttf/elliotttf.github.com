@@ -104,7 +104,7 @@ header h2 {
 
 a.button {
   -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;                     
+  -webkit-border-radius: 30px;
   border-radius: 30px;
   border-top: solid 1px #cbcbcb;
   border-left: solid 1px #b7b7b7;
@@ -118,7 +118,8 @@ a.button {
   display: block;
   float: left;
   width: 179px;
-  margin-right: 14px;  
+  margin-right: 7px;
+  margin-bottom: .5em;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -159,10 +160,13 @@ a.button span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+  background: transparent url(../images/octocat-icon.png) 18px 50% no-repeat;
 }
 #follow-on-twitter span {
   background: transparent url(../images/twitter-bird-light-bgs.png) 12px 50% no-repeat;
+}
+#follow-on-instagram span {
+  background: transparent url(../images/instagram-icon.png) 20px 50% no-repeat;
 }
 
 code, pre {
