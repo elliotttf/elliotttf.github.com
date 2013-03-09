@@ -116,9 +116,6 @@ a.button {
   font-size: 15px;
   padding: 12px 8px 12px 8px;
   display: block;
-  float: left;
-  width: 179px;
-  margin-right: 7px;
   margin-bottom: .5em;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -131,6 +128,7 @@ a.button {
   -webkit-box-shadow: 10px 10px 5px #888;
   -moz-box-shadow: 10px 10px 5px #888;
   box-shadow: 0px 1px 5px #e8e8e8;
+  text-align: center;
 }
 a.button:hover {
   border-top: solid 1px #b7b7b7;
@@ -148,7 +146,6 @@ a.button:hover {
 }
 
 a.button span {
-  padding-left: 50px;
   display: block;
   height: 23px;
 }
@@ -374,6 +371,19 @@ footer a:hover {
   .inner {
     width: 94%;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 661px) {
+  a.button {
+    float: left;
+    float: left;
+    width: 179px;
+    margin-right: 7px;
+    text-align: start;
+  }
+  a.button span {
+    padding-left: 50px;
   }
 }
 
