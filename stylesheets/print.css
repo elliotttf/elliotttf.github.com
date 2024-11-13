@@ -187,8 +187,9 @@ blockquote {
 }
 
 ul li {
-  list-style: disc inside;
-  padding-left: 20px;
+  list-style: disc outside;
+  padding-left: 10px;
+  margin-left: 20px;
 }
 
 ol li {
@@ -231,5 +232,6 @@ nav li {
 }
 
 ul.positions li.position {
-	list-style: none;
+  list-style: none;
+  margin-left: 0;
 }
